@@ -1,6 +1,6 @@
 # npmtest-gulp-batch-replace
 
-#### basic test coverage for  gulp-batch-replace (v0.0.0)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-batch-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-batch-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-batch-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-batch-replace)
+#### basic test coverage for  [gulp-batch-replace (v0.0.0)](https://github.com/Metrime/gulp-batch-replace)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-batch-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-batch-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-batch-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-batch-replace)
 
 #### A batch string/regexp replace plugin for gulp
 
@@ -35,25 +35,30 @@
 ```json
 
 {
-    "name": "gulp-batch-replace",
-    "version": "0.0.0",
-    "description": "A batch string/regexp replace plugin for gulp",
-    "main": "index.js",
+    "author": {
+        "name": "Michael Ostermann"
+    },
+    "bugs": {
+        "url": "https://github.com/Metrime/gulp-batch-replace/issues"
+    },
     "dependencies": {
         "event-stream": "latest"
     },
+    "description": "A batch string/regexp replace plugin for gulp",
     "devDependencies": {
-        "should": "~2.1.1",
+        "gulp-util": "latest",
         "mocha": "~1.15.1",
-        "gulp-util": "latest"
+        "should": "~2.1.1"
     },
-    "scripts": {
-        "test": "./node_modules/.bin/mocha"
+    "directories": {},
+    "dist": {
+        "shasum": "7e9826ad928862722c1eacb4421b4127bffd643e",
+        "tarball": "https://registry.npmjs.org/gulp-batch-replace/-/gulp-batch-replace-0.0.0.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/Metrime/gulp-batch-replace.git"
+    "engines": {
+        "node": ">=0.8"
     },
+    "homepage": "https://github.com/Metrime/gulp-batch-replace",
     "keywords": [
         "gulpplugin",
         "batch",
@@ -62,14 +67,24 @@
         "replace",
         "multiple"
     ],
-    "author": "Michael Ostermann <metrime@icloud.com>",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Metrime/gulp-batch-replace/issues"
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "metrime"
+        }
+    ],
+    "name": "gulp-batch-replace",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Metrime/gulp-batch-replace.git"
     },
-    "engines": {
-        "node": ">=0.8"
-    }
+    "scripts": {
+        "test": "./node_modules/.bin/mocha"
+    },
+    "version": "0.0.0",
+    "bin": {}
 }
 ```
 
